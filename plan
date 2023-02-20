@@ -1,0 +1,33 @@
+The ANH (A New Hope) Darth vader chestbox has:
+* 3 coin slot red lights
+* 1 rectangular red light
+* 1 rectangular green light
+* 4 rocker switches
+
+Inspired by:
+* https://www.pjrc.com/stormtrooper-voice-changer/
+
+The goal of this project is to integrate the following into the chestbox
+* Blinking lights
+* Voice changer
+* Play Imperial March
+* Play breathing sounds
+* Speakers
+
+
+Power source:
+* 3.7V 2500 mAh LiPo battery
+* Adafruit LiPoly charger (https://www.adafruit.com/product/259)
+* 3.3V Voltage regulator
+
+Microphone:
+* 1 microphone with mono 3.5" audio jack
+* 1 female mono 3.5" jack
+* Circuit (https://www.pjrc.com/teensy/gui/img/adccircuit.png)
+  * 2 47K resistors
+  * 1 10K resistor
+  * 1 2.2K resistor
+  * 2 10 uf capacitors
+Connected to pin A2
+
+
