@@ -1,0 +1,47 @@
+Items
+* Teensy 4.1
+* Adafruit USB LiIon/LiPoly charger - v1.2
+* Adafruit JST-PH 2-Pin SMT Right Angle Breakout Board
+* Audio Adaptor Board for Teensy 4.0
+* Teyleten Robot Max98357 I2S 3W Class D Amplifier Breakout Interface Dac Decoder Module Filterless Audio Board for Raspberry Pi Esp32
+
+Power rails
+* 3.7 V (LiPo to Charger to board, connected via JST 2)
+* 3.3V (Teensy supplied)
+* 9V? (Is this needed? Push buttons/voltage regulator down to 5V)
+* 5V? Audio Amplifiers
+
+Connecting to Teensy
+* 1 Audio Shield
+* 2 DAC/Amplifiers
+* 1 Potentiometer (volume)
+* 4 Switches (toggle switches)
+* 2 Buttons (red/green)
+* 5 lights
+  * 1 PWM for breathing
+
+
+Pin27: Potentiometer
+Pin7: Audio Data Out to DAC
+Pin8: Audio Data In from Audio Shield
+Pin20: LRClk to DAC and Audio SHield
+Pin21: Bclk to DAC and AUdio Shield
+Pin23: Mclk to Audio SHield
+Pin18: SDA- i2c to Audio shield
+Pin19: SCL- i2c to Audio shield
+
+Pin33- Coin_Slot1: PWM for breathing 
+Coin_Slot0: Heart beat
+Coin_Slot2
+SquareButton0
+SquareButton1
+ToggleSwitch0
+ToggleSwitch1
+ToggleSwitch2
+ToggleSwitch3
+
+
+
+
+Switches
+1: Power switch (side DIP switch)
